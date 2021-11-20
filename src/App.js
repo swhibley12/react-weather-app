@@ -6,11 +6,12 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="New York" />
         <footer>
           This project was coded by{" "}
-          <a href="https://modest-khorana-3d01c6.netlify.app/" target="_blank">
-            Sarah Whibley
+          <a href="https://modest-khorana-3d01c6.netlify.app" target="_blank">
+            {" "}
+            rel="noopener nonreferrer" Sarah Whibley
           </a>{" "}
           and is{" "}
           <a
